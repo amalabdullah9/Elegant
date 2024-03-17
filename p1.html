@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta>
+        <title>wepsite for Accessories</title>
+        <link rel="stylesheet" href="ac.css">
+<link rel="stylesheet" href="p1.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    </head>
+    <body>
+<div class="container">
+<div class="navbar">
+<img src="img/am2.png"class="logo">
+<nav>
+    <ul>
+        <li><a href="indexx.html">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="p1.html">products</a></li>
+    </ul>
+</nav>
+<img src="img/MN1.png" class="menu-icon">
+</div>
+
+<section class="slider-container">
+    <div class="slider-images">
+      <div class="slider-img">
+        <img src="img/Z1.jpg" alt="1" />
+        <h1>love</h1>
+        <div class="details">
+          <h2>A</h2>
+          <p>Collection 1</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="img/Z2.jpg" alt="2" />
+        <h1>beautifull</h1>
+        <div class="details">
+          <h2>B</h2>
+          <p>Collection 2</p>
+        </div>
+      </div>
+      <div class="img">
+        <img src="img/Z3.jpg" alt="3" />
+        <h1>Gorgeous</h1>
+        <div class="details">
+          <h2>C</h2>
+          <p>Collection 3</p>
+        </div>
+      </div>
+      <div class="slider-img active">
+        <img src="img/Z4.jpg" alt="4" />
+        <h1>Amazing</h1>
+        <div class="details">
+          <h2>D</h2>
+          <p>Collection 4</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="img/Z0.jpg" alt="5" />
+        <h1>Intresting</h1>
+        <div class="details">
+          <h2>E</h2>
+          <p>Collection 4</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="img/A4.jpg" alt="6" />
+        <h1>Bright</h1>
+        <div class="details">
+          <h2>F</h2>
+          <p>Collection 5</p>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="img/A5.jpg" alt="7" />
+        <h1>Suits you</h1>
+        <div class="details">
+          <h2>G</h2>
+          <p>Collection 6</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="jQuery.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      $(".slider-img").on("click", function () {
+        $(".slider-img").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+    </div>
+    </body>
+</html>
